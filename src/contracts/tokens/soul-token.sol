@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "../tokens/erc42.sol";
+import "../tokens/erc721_42.sol";
 import "../tokens/nf-token.sol";
 import "../ownership/ownable.sol";
 import "../tokens/erc721-enumerable.sol";
 import "../tokens/erc721-metadata.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 
-contract Soul_Token is NFToken, ERC42, Ownable, ERC721Enumerable, ERC721Metadata {
+contract Soul_Token is NFToken, ERC721_42, Ownable, ERC721Enumerable, ERC721Metadata {
     using Strings for uint256; 
     
     event Minted(address indexed issuer, address indexed owner, uint256 indexed tokenId);
