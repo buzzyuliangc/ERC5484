@@ -1,0 +1,75 @@
+{
+  "name": "erc721-520",
+  "version": "0.0.1",
+  "description": "Reference implementation of the ERC721-520 non-fungible token standard.",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "flatten": "npx hardhat flatten",
+    "coverage": "npx hardhat coverage",
+    "solhint": "solhint src/**/*.sol",
+    "deploy:rinkeby": "npx hardhat run --network rinkeby src/deploys/deploy-marry3token.js",
+    "deploy:marry3:rinkeby": "npx hardhat run --network rinkeby src/deploys/deploy-marry3.js",
+    "deploy:mainnet": "npx hardhat run --network mainnet src/deploys/deploy-marry3.js",
+    "burn:rinkeby": "npx hardhat run --network rinkeby src/deploys/burn.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marryinweb3/erc721-520"
+  },
+  "bugs": {
+    "url": "https://github.com/marryinweb3/erc721-520/issues"
+  },
+  "homepage": "https://github.com/marryinweb3/erc721-520#readme",
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "eth",
+    "contract",
+    "contracts",
+    "smart",
+    "smart-contract",
+    "smart-contracts",
+    "token",
+    "tokens",
+    "nft",
+    "nfts",
+    "non-fungible",
+    "non-fungibles",
+    "eip",
+    "erc",
+    "erc520",
+    "erc-520",
+    "deed",
+    "standard"
+  ],
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "2.0.2",
+    "@nomiclabs/hardhat-waffle": "2.0.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "chai": "4.3.4",
+    "chai-bignumber": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "ethereum-waffle": "3.4.0",
+    "ethers": "5.5.2",
+    "hardhat": "^2.7.0",
+    "hardhat-abi-exporter": "2.3.1",
+    "solhint": "3.3.6",
+    "solidity-coverage": "0.7.17",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@ensdomains/ens-contracts": "^0.0.11",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@typechain/ethers-v5": "^10.0.0",
+    "@typechain/hardhat": "^6.0.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.31",
+    "ts-node-dev": "^2.0.0",
+    "typechain": "^8.0.0",
+    "typescript": "^4.7.3"
+  }
+}
