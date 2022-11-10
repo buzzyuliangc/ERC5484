@@ -23,7 +23,7 @@ Clone this repository and install the required `npm` dependencies:
 
 ```
 $ git clone git@github.com:buzzyuliangc/ERC5484.git
-$ cd ER5484
+$ cd ERC5484
 $ npm install
 ```
 
