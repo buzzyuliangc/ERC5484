@@ -1,6 +1,6 @@
 ### Standard
 
-this token is base on ERC721 and ERC5484 standards. 
+this token is based on ERC721 and ERC5484 standards. 
 you can check out EIP5484 [here](https://eips.ethereum.org/EIPS/eip-5484)
 
 ### Notice
