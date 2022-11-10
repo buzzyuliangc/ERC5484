@@ -33,8 +33,6 @@ Make sure that everything has been set up correctly:
 $ npm run test
 ```
 
-![line](https://user-images.githubusercontent.com/897401/171048003-7b7adb40-9f72-4bfc-84de-e948892bf7f9.png)
-
 ## Licence
 
 See [LICENSE](./LICENSE) for details.
